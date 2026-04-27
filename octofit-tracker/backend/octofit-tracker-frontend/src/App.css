@@ -1,0 +1,99 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #1a237e;
+}
+
+
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%) !important;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(33, 150, 243, 0.15);
+}
+.navbar-nav .nav-link.active {
+  color: #ffd600 !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+.table-primary {
+  background-color: #e3f2fd !important;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f1f8e9 !important;
+}
+.table-hover tbody tr:hover {
+  background-color: #bbdefb !important;
+}
+.card {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 2px 12px rgba(33, 150, 243, 0.08);
+}
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #1565c0 0%, #1e88e5 100%);
+  color: #ffd600;
+}
+a, .App-link {
+  color: #1976d2;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ffd600;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(135deg, #1976d2 0%, #42a5f5 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
